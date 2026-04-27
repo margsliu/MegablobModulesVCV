@@ -53,7 +53,7 @@ struct HelloSineWidget : ModuleWidget {
 		addChild(createWidget<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 
 		addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.155f, 42.406f)), module, HelloSine::FREQ_PARAM));
-		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(10.155f, 89.667f)), module, HelloSine::OUT_OUTPUT));
+		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(9.986f, 72.8f)), module, HelloSine::OUT_OUTPUT));
 	}
 };
 
