@@ -12,5 +12,14 @@
   "sourceUrl": "https://github.com/margsliu/MegablobModules",
   "donateUrl": "",
   "changelogUrl": "",
-  "modules": []
+  "modules": [
+    {
+      "slug": "HelloSine",
+      "name": "HelloSine",
+      "description": "Sine wave generator with frequency control.",
+      "tags": [
+        "Oscillator"
+      ]
+    }
+  ]
 }
