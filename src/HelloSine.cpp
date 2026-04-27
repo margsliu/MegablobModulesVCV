@@ -25,7 +25,7 @@ struct HelloSine : Module {
 		configParam(FREQ_PARAM, std::log2(20.f), std::log2(20000.f), std::log2(440.f), "Frequency", " Hz");
 		// Have the VCV Rack tooltip display in Hz
         paramQuantities[FREQ_PARAM]->displayBase = 2.f;
-		configOutput(OUT_OUTPUT, "Sine");
+		configOutput(OUT_OUTPUT, "Out");
 	}
 
 	void process(const ProcessArgs& args) override {
@@ -52,8 +52,8 @@ struct HelloSineWidget : ModuleWidget {
 		addChild(createWidget<ScrewSilver>(Vec(RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 		addChild(createWidget<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 
-		addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.155f, 42.406f)), module, HelloSine::FREQ_PARAM));
-		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(9.986f, 72.8f)), module, HelloSine::OUT_OUTPUT));
+		addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(10.155f, 42.935f)), module, HelloSine::FREQ_PARAM));
+		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(10.155f, 69.646f)), module, HelloSine::OUT_OUTPUT));
 	}
 };
 
