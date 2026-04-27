@@ -1,0 +1,16 @@
+{
+  "slug": "MEGABLOB",
+  "name": "MEGABLOB",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "MEGABLOB",
+  "author": "Meg Liu",
+  "authorEmail": "voidistrysounds@gmail.com",
+  "authorUrl": "https://github.com/margsliu",
+  "pluginUrl": "https://github.com/margsliu/MegablobModules",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/margsliu/MegablobModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": []
+}
